@@ -38,6 +38,16 @@ IP range between (0-255).
 - 1. Private IP
   - For LAN(for small network)
   - Private IP !---> Public IP
-  - 
+  - Private IP ---> Private IP(only if both are in same network)
+    
+- 2. Public IP
+  - For WAN(real name for Wider range network)
+  - Public IP ---> Public IP(only in WAN network)
 
-
+- 2. Public IP
+  - For WAN(real name for Wider range network)
+  - Public IP ---> Public IP(only in WAN
+ 
+- 2. Public IP
+  - For WAN(real name for Wider range network)
+  - Public IP ---> Public IP(only in WAN 
