@@ -44,10 +44,11 @@ IP range between (0-255).
   - For WAN(real name for Wider range network)
   - Public IP ---> Public IP(only in WAN network)
 
-- 2. Public IP
-  - For WAN(real name for Wider range network)
-  - Public IP ---> Public IP(only in WAN
+- 3. Static IP
+  - IP which doesn't change when you reconnect to a network and It remain same forever.
  
-- 2. Public IP
-  - For WAN(real name for Wider range network)
-  - Public IP ---> Public IP(only in WAN 
+- 4. Dynamic IP
+  - IP change everytime we reconnect, example when we get disconnected from network our IP is replaced with someone who need.
+
+### MAC Address
+Media Access Control Address 
