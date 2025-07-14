@@ -1,5 +1,5 @@
 # OSI Model - 7 Layers 
-
+Open systems interconnection model consist of these layers:
 1. **Physical (Layer 1)**
    - Cables, connectors, signals 
    - Eg: Ethernet cable, fiber optics
