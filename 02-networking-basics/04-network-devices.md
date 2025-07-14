@@ -1,5 +1,5 @@
 # Network Devices
-- **Router**: Connects different networks; handles routing based on IP addresses.
+- **Router**: A device that forwards data packets between computer networks. It can be both wired and wireless D link, TP link, Cisco are just brand manufacturer for router, modem and switches.
 - **Switch**: Forwards data based on MAC addresses within a LAN.
 - **Hub**: Broadcasts data to all devices (less secure/efficient than switches).
 - **Firewall**: Monitors and controls incoming/outgoing traffic using rules.
