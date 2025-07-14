@@ -3,7 +3,7 @@ Set of rules that define how data is transmitted between devices. (eg. http/http
 
 ### Types of Protocols in other words TCP/IP model(framework) 
 
-> OSI is a theoretical model, TCP/IP is used in real-world networking.
+> OSI is a theoretical model, TCP/IP is used in real-world networking. Basically TCP/IP model is a version of OSI model 
 
 A simple table for OSI model with 4 layers
 | TCP/IP Layer       | OSI Equivalent | Protocols            |                  Protocols                  |
