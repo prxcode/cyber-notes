@@ -8,12 +8,38 @@
 ### HTTP/HTTPS Basics
 - **HTTP** (HyperText Transfer Protocol): Stateless, plain-text protocol.
 - **HTTPS**: Secure version using SSL/TLS encryption.
-- Key Methods:
-    - **GET**: Retrieve data
-    - **POST**: Send data
-    - **PUT**: Update data
-    - **DELETE**: Delete data
 
+### HTTP Request
+A packet asking to load a website includes GET/POST headers and body. Example of HTTP Request.
+- `<request line>` -> GET /doc/test html http/1.1
+- `<request header>` -> host/accept/user agent/content length
+- `<blank line to seprate header and body>`
+- `<request message body>`
+
+#### Types of Request Method
+- 1. **GET**: Data transfer through URL easily visible and not secure.
+- 2. **POST**: Sends user information & files in body to secure using html forms.
+- 3. **PUT**: Replaces all current representations of the target resources with uploaded content.
+- 4. **DELETE**: Remove all current representatios of the target resources given by a URL.
+- 5. **OPTIONS**: Describe the communication options for the target resource.
+- 6. **TRACE**: Performs a message loop back test along the path to the target resource.
+- 7. **CONNECT**: Establishes a tunnel to the server identified by given URL.
+
+### Domain Name and DNS
+- **Domain**: Name of IP like **google.com**, **facebook.com** which is easy to remember.
+- **DNS(Domain Name System)**: Aka Address book of internet, translate domain to IP, all records are stored zone file to redirect to that IP based on domain name translating zone file.
+- **Zonefile**: A text file of DNS records of domain, it does IP mapping to find what domain for what IP it is always connected to a name server.
+
+### Record in DNS and there use
+- A: IP of domain name
+- CNAME: Forwards domain and subdomain to another domain
+- MX: Directs mail to email server
+- NS: Name server of DNS entry
+- SOA: Admin info about the domain
+- SRV: Specify port for specific service
+- PTR: Provides domain name in reverse lookup
+
+  
 ### Cookies & Sessions
 - **Cookies**: Stored on the client side. Used for state management.
 - **Sessions**: Stored on the server. Tied to session ID (often in a cookie).
