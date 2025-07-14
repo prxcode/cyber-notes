@@ -67,5 +67,3 @@ Ports are basically path from which data is transferred to one IP Address to ano
   2. Registered Ports: 1024 - 49151 (eg. mysql servers/rdp)
   3. Dynamic Ports: 49152 - 65535 (eg. private ports/temp use)
 
-### Protocols
-Set of rules that define how data is transmitted between devices. (eg. http/https/txp/ip/ssh/dns/ftp)
