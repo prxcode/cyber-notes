@@ -18,3 +18,16 @@ Cyber Security is process of protecting digital data from unauthorized access. C
 - Authentication: Proving you are who you are.
 - Authorization: What you are allowed to do after login
 
+### Cyber Security Laws
+- Hacking, online fraud, defamation and illegal access to government networks can bring penality or punishment.
+- Spreading Malware, phishing or any sort of hacking method wihout legal permission is punishable crime.
+
+### Hacking Devices
+- Flipper Zero:
+- Rasberry Pi:
+- USB rubber ducky:
+- Wifi Pineapple:
+- HackRF one:
+- BAD USB:
+
+> Getting admin privilege(root user) is called rooting in android, and jailbreaking in IOS which is also called super user or sudo.
