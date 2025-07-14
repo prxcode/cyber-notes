@@ -67,3 +67,19 @@ Ports are basically path from which data is transferred to one IP Address to ano
   2. Registered Ports: 1024 - 49151 (eg. mysql servers/rdp)
   3. Dynamic Ports: 49152 - 65535 (eg. private ports/temp use)
 
+### Localhost(127.0.0.1)
+It refers to the local commputer itself. It is used for testing web apps, networking without internet access. It runs local servers WAMP or node.js, basically a network which is their in every device for testing and can't be accessed by other devices.
+
+### Allotment of IP
+- 1. Manual
+    - The IP address is assigned manually by user.
+    - It remains fixed unless changed.
+    - Configuration is done in device settings.
+    - Ex. Servers, Cameras
+
+- 2. Automatic
+    - Using DHCP, ARP these protocols help.
+    - Most commonly used as faster.
+    - Ex. Home/Office wifi
+ 
+  
