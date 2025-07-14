@@ -51,4 +51,21 @@ IP range between (0-255).
   - IP change everytime we reconnect, example when we get disconnected from network our IP is replaced with someone who need.
 
 ### MAC Address
-Media Access Control Address 
+Media Access Control Address consist of 48bits = 6byte
+Example format `0A:22:84:D5:65:V4`.
+
+To find your MAC Address type 
+- Windows: CMD -> `getmac`
+- Linux/MacOS -> `ifconfig`
+- Or websit -> `https://dnschecker.org/mac-lookup.php`
+
+### Ports(Path/Route)
+Ports are basically path from which data is transferred to one IP Address to another. There should be one reciver to recieve packet at that address. Only one person at a time can use that port unless its free. We have 1-65535 Ports
+
+### Types of Ports
+- 1. Well known Ports: 0 - 1023 (eg. http/https/dns/ssh/smtp/ftp)
+  2. Registered Ports: 1024 - 49151 (eg. mysql servers/rdp)
+  3. Dynamic Ports: 49152 - 65535 (eg. private ports/temp use)
+
+### Protocols
+Set of rules that define how data is transmitted between devices. (eg. http/https/txp/ip/ssh/dns/ftp)
